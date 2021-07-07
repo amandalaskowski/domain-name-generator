@@ -19,11 +19,11 @@ window.onload = function() {
         for (let t = 0; t < third.length; t++) {
           for (let i = 0; i < fourth.length; i++) {
             myArray.push(first[f] + second[s] + third[t] + fourth[i]);
-            return myArray;
           }
         }
       }
     }
+    return myArray;
   }
 
   document.getElementById("names").innerHTML = generateDomain();
